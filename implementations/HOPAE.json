@@ -8,5 +8,19 @@
       "endpoint": "https://localhost:40443/verifiers/z19uokPn3b1Z4XDbQSHo7VhFR/credentials/verify",
       "tags": ["vc2.0"]
     }
+  ],
+  "vpVerifiers": [
+    {
+      "id": "https://localhost:40443/vp-verifiers/z19uokPn3b1Z4XDbQSHo7VhFR",
+      "endpoint": "https://localhost:40443/vp-verifiers/z19uokPn3b1Z4XDbQSHo7VhFR/credentials/verify",
+      "tags": ["vc2.0"]
+    }
+  ],
+  "vcHolders": [
+    {
+      "id": "https://localhost:40443/vc-holders/z19uokPn3b1Z4XDbQSHo7VhFR",
+      "endpoint": "https://localhost:40443/vp-verifiers/z19uokPn3b1Z4XDbQSHo7VhFR/credentials/verify",
+      "tags": ["vc2.0"]
+    }
   ]
 }

@@ -1,10 +1,26 @@
 {
   "name": "My Company",
   "implementation": "My implementation",
+  "issuers": [
+    {
+      "id": "",
+      "endpoint": "https://issuer.mycompany.com/credentials/issue",
+      "method": "POST",
+      "tags": ["vc2.0"]
+    }
+  ],
   "verifiers": [
     {
       "id": "",
       "endpoint": "https://verifier.mycompany.com/credentials/verify",
+      "method": "POST",
+      "tags": ["vc2.0"]
+    }
+  ],
+  "vpVerifiers": [
+    {
+      "id": "",
+      "endpoint": "https://verifier.mycompany.com/presentations/verify",
       "method": "POST",
       "tags": ["vc2.0"]
     }

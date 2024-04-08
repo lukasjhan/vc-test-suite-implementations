@@ -1,25 +1,27 @@
 {
   "name": "My Company",
-  "implementation": "My Implementation Name",
-
+  "implementation": "My implementation",
+  "issuers": [
+    {
+      "id": "",
+      "endpoint": "https://issuer.mycompany.com/credentials/issue",
+      "method": "POST",
+      "tags": ["vc2.0"]
+    }
+  ],
   "verifiers": [
     {
-      "id": "https://localhost:40443/verifiers/z19uokPn3b1Z4XDbQSHo7VhFR",
-      "endpoint": "https://localhost:40443/verifiers/z19uokPn3b1Z4XDbQSHo7VhFR/credentials/verify",
+      "id": "",
+      "endpoint": "https://verifier.mycompany.com/credentials/verify",
+      "method": "POST",
       "tags": ["vc2.0"]
     }
   ],
   "vpVerifiers": [
     {
-      "id": "https://localhost:40443/vp-verifiers/z19uokPn3b1Z4XDbQSHo7VhFR",
-      "endpoint": "https://localhost:40443/vp-verifiers/z19uokPn3b1Z4XDbQSHo7VhFR/credentials/verify",
-      "tags": ["vc2.0"]
-    }
-  ],
-  "vcHolders": [
-    {
-      "id": "https://localhost:40443/vc-holders/z19uokPn3b1Z4XDbQSHo7VhFR",
-      "endpoint": "https://localhost:40443/vp-verifiers/z19uokPn3b1Z4XDbQSHo7VhFR/credentials/verify",
+      "id": "",
+      "endpoint": "https://verifier.mycompany.com/presentations/verify",
+      "method": "POST",
       "tags": ["vc2.0"]
     }
   ]

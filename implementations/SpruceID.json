@@ -8,7 +8,7 @@
       "options": {
         "type": "Ed25519Signature2020"
       },
-      "tags": ["Ed25519Signature2020"]
+      "tags": ["vc-api", "Ed25519Signature2020"]
     },
     {
       "id": "did:key:z6MkgND5U5Kedizov5nxeh2ZCVUTDRSmAfbNqPhzCq8b72Ra",
@@ -16,7 +16,7 @@
       "options": {
         "type": "DataIntegrityProof"
       },
-      "tags": ["eddsa-rdfc-2022"]
+      "tags": ["vc-api", "eddsa-rdfc-2022"]
     },
     {
       "id": "did:key:zDnaei6w9La4VphyPA6V2V5poBTpVtjCsnzPML5c78GWjRhnc",
@@ -25,7 +25,7 @@
         "type": "DataIntegrityProof"
       },
       "supportedEcdsaKeyTypes": ["P-256"],
-      "tags": ["ecdsa-rdfc-2019"]
+      "tags": ["vc-api", "ecdsa-rdfc-2019"]
     }
   ],
   "verifiers": [
@@ -33,7 +33,12 @@
       "id": "https://spruceid.com",
       "endpoint": "https://vc.spruceid.xyz/credentials/verify",
       "supportedEcdsaKeyTypes": ["P-256"],
-      "tags": ["Ed25519Signature2020", "eddsa-rdfc-2022", "ecdsa-rdfc-2019"]
+      "tags": [
+        "vc-api",
+        "Ed25519Signature2020",
+        "eddsa-rdfc-2022",
+        "ecdsa-rdfc-2019"
+      ]
     }
   ]
 }

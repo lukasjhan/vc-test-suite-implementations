@@ -1,13 +1,6 @@
 {
   "name": "LearnCard",
   "implementation": "LearnCard",
-  "issuers": [
-    {
-      "id": "did:key:z6MkjSz4mYqcn7dePGuktJ5PxecMkXQQHWRg8Lm6okATyFVh",
-      "endpoint": "https://bridge.learncard.com/credentials/issue",
-      "tags": ["Ed25519Signature2020"]
-    }
-  ],
   "verifiers": [
     {
       "id": "",
